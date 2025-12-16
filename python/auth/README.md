@@ -79,3 +79,19 @@ or a `.env` file.
 PHONE_NO=9XXXXXXXXX
 MPIN=XXXX
 NUBRA_TOTP_SECRET=BASE32SECRET   # Required only for full automation
+
+---
+
+## Usage
+
+Install dependencies:
+pip install pyotp requests
+
+
+Run an example:
+python totp_full_automation.py
+
+For detailed authentication flows and SDK reference, see:
+https://nubra.io/products/api/docs/
+
+© 2025 Zanskar Securities Private Limited. All rights reserved.
